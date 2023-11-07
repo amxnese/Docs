@@ -4,16 +4,16 @@
 **git status** : *gives you the status of your branch (untracked,commited,renamed,deleted,added ...)*.
 **git add 'FileName'** : *Adds The New File To The Stage*.
 **git restore --staged 'FileName'** : *Unstages The 'FileName' File*.
-**git clean -n** : shows the files that would be removed.(unstaged files).
-**git clean -f** : Removes all Unstaged Files.
+**git clean -n** : *shows the files that would be removed.(unstaged files).*
+**git clean -f** : *Removes all Unstaged Files.*
 **git commit -m "Note"** : *Commits The Added File Along With a Note*.
 **git branch** : *Shows The Available Branches*.
 **git branch 'branchName'** : *Creates the branch 'branchName'*.
 **git checkout 'branchName'** : *Switches to The 'branchName'*.
 **git checkout -b 'branchName'** : *Creates The Branch and Switches to it*.
-**git branch -d 'branchName'** : Delets The Branch 'branchName' if it doesn't contains any changes.
-**git branch -D 'branchName'** : Delets The Branch 'branchName' No Matter What.
-**git remote** : Gives The Remote Name.
+**git branch -d 'branchName'** : *Delets The Branch 'branchName' if it doesn't contains any changes.*
+**git branch -D 'branchName'** : *Delets The Branch 'branchName' No Matter What.*
+**git remote** : *Gives The Remote Name.*
 **git push 'Remote' 'Branch'** : Pushes The Commited Files From The Branch To The Remote.
 **git pull 'Remote'** : Pulls The Changes Made Within The GitHub Into The Cloned Repository.
 **git push -u 'Remote' 'Branch'** : Pulls Before Pushing. (Recommended).

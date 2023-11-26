@@ -53,3 +53,5 @@
 **git push 'remote' 'tag name'** : pushes the version to the remote.
 **git tag -d 'tag name'** : Delets The Tag From The Branch.
 **git push origin --delete 'tag'** : Delets The Tag From The Remote.
+**git config --get-regexp alias** : Checks All Aliases That You're Using.
+**git config --global --remove-section alias** : Removes All Aliases.
